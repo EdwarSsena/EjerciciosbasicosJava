@@ -22,6 +22,10 @@ public class Principal {
         System.out.println("8. Programa....8");
         System.out.println("9. Programa....9");
         System.out.println("10. Programa...10");
+        System.out.println("11. Programa ..11");
+        System.out.println("12. Programa...11");
+        System.out.println("13. Programa...13");
+        System.out.println("14. Programa...14");
         
         //Captura la opcion escojida
         int seleccion = scanner.nextInt();
@@ -82,6 +86,26 @@ public class Principal {
             case 10:
                 Ejercicio10 ejercicio10 = new Ejercicio10();
                 ejercicio10.temperaturaAmbiente();
+                break;
+              
+            case 11:
+                Ejercicio11 ejercicio11 = new Ejercicio11();
+                ejercicio11.sesorTemperatura();
+                break;
+                
+            case 12:
+                Ejercicio12 ejercicio12 = new Ejercicio12();
+                ejercicio12.asensorConTemperatura();
+                break;
+                
+            case 13:
+                Ejercicio13 ejercicio13 = new Ejercicio13();
+                ejercicio13.Tienda();
+                break;
+                
+            case 14:
+                Ejercicio14 ejercicio14 = new Ejercicio14();
+                ejercicio14.IMC();
             
             default:
                 
